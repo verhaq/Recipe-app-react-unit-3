@@ -9,6 +9,7 @@ import styles from "./Home.module.css"
 
 
 
+
 const getRecipes = () => { 
   axios.get("https://recipes.devmountain.com/recipes")
   .then((res) => {
@@ -43,8 +44,6 @@ const HomeScreen = () => {
       />
       </div>
       <RecipeCard />
-
-
     
     </div>
 

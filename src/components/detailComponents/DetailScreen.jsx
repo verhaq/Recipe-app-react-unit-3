@@ -23,7 +23,7 @@ const DetailScreen = () => {
     <section>
       <DetailImage image={recipe.image_url} title={recipe.recipe_name} />
       <div className={styles.details_container}>
-        <div className="ml-[500px]">
+        <div className="ml-[200px]">
 
           <div className={styles.ingredients_container}>
             <h2>Recipe</h2>
